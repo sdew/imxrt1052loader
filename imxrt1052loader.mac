@@ -1,0 +1,100 @@
+setup()
+{
+__var tmp;
+	
+  /** Set PLL2 PDF2 to 396MHz **/
+  /*
+  tmp = __readMemory32(0x400D8100,"Memory") & ~(0xFF<<16);
+  __writeMemory32(tmp | (1<<23),0x400D8100,"Memory");
+  __writeMemory32(tmp | (0x18<<16),0x400D8100,"Memory");
+  */
+
+  /** Set PLL3 PDF0 to 480MHz **/
+  tmp = __readMemory32(0x400D80F0,"Memory") & ~(0xFF);
+  __writeMemory32(tmp | (1<<7),0x400D80F0,"Memory");
+  __writeMemory32(tmp | (0x12),0x400D80F0,"Memory");
+  
+  /** Select FlexSPI Clock from PLL3 PFD0 (480MHz)
+      with divider set to 7. SCLK to FlexSPI will be 60MHz **/
+  tmp = __readMemory32(0x400FC01C,"Memory");  //read CCM_CSCMR1
+  tmp &= ~((0x3<<29) | (0x7<<23)); //
+  tmp |=  ((0x3<<29) | (0x7<<23)); //FlexSPI_clk_podf = 7(divide by 8); FlexSPI_clk_sel = 3;
+  __writeMemory32(tmp,0x400FC01C,"Memory");     //write back CCM_CSCMR1
+  
+  /** Enable FlexSPI Clock in CCM **/
+  tmp = __readMemory32(0x400FC080,"Memory");  //read CCM_CCGR6
+  tmp |= (3<<10);                             //Set CG5 bits
+  __writeMemory32(tmp,0x400FC080,"Memory");   //write back CCM_CCGR6
+  
+  /** IOMUX config **/
+  /* Pin Mux */
+  __writeMemory32(0x1,0x401F81D4,"Memory");  //IOMUXC_GPIO_SD_B1_00 FLEXSPIB_DATA03
+  __writeMemory32(0x1,0x401F81D8,"Memory");  //IOMUXC_GPIO_SD_B1_01 FLEXSPIB_DATA02
+  __writeMemory32(0x1,0x401F81DC,"Memory");  //IOMUXC_GPIO_SD_B1_02 FLEXSPIB_DATA01
+  __writeMemory32(0x1,0x401F81E0,"Memory");  //IOMUXC_GPIO_SD_B1_03 FLEXSPIB_DATA00
+  __writeMemory32(0x1,0x401F81E4,"Memory");  //IOMUXC_GPIO_SD_B1_04 FLEXSPIB_SCLK 
+  __writeMemory32(0x1,0x401F81E8,"Memory");  //IOMUXC_GPIO_SD_B1_05 FLEXSPIA_DQS
+  __writeMemory32(0x1,0x401F81EC,"Memory");  //IOMUXC_GPIO_SD_B1_06 FLEXSPIA_SS0_B
+  __writeMemory32(0x1,0x401F81F0,"Memory");  //IOMUXC_GPIO_SD_B1_07 FLEXSPIA_SCLK 
+  __writeMemory32(0x1,0x401F81F4,"Memory");  //IOMUXC_GPIO_SD_B1_08 FLEXSPIA_DATA00
+  __writeMemory32(0x1,0x401F81F8,"Memory");  //IOMUXC_GPIO_SD_B1_09 FLEXSPIA_DATA01
+  __writeMemory32(0x1,0x401F81FC,"Memory");  //IOMUXC_GPIO_SD_B1_10 FLEXSPIA_DATA02
+  __writeMemory32(0x1,0x401F8200,"Memory");  //IOMUXC_GPIO_SD_B1_11 FLEXSPIA_DATA03
+  /* Pin Config */
+  __writeMemory32(0x10F1,0x401F83C4,"Memory");  //IOMUXC_GPIO_SD_B1_00 FLEXSPIB_DATA03
+  __writeMemory32(0x10F1,0x401F83C8,"Memory");  //IOMUXC_GPIO_SD_B1_01 FLEXSPIB_DATA02
+  __writeMemory32(0x10F1,0x401F83CC,"Memory");  //IOMUXC_GPIO_SD_B1_02 FLEXSPIB_DATA01
+  __writeMemory32(0x10F1,0x401F83D0,"Memory");  //IOMUXC_GPIO_SD_B1_03 FLEXSPIB_DATA00
+  __writeMemory32(0x10F1,0x401F83D4,"Memory");  //IOMUXC_GPIO_SD_B1_04 FLEXSPIB_SCLK
+  __writeMemory32(0x130F1,0x401F83D8,"Memory");  //IOMUXC_GPIO_SD_B1_05 FLEXSPIA_DQS
+  __writeMemory32(0x10F1,0x401F83DC,"Memory");  //IOMUXC_GPIO_SD_B1_06 FLEXSPIA_SS0_B
+  __writeMemory32(0x10F1,0x401F83E0,"Memory");  //IOMUXC_GPIO_SD_B1_07 FLEXSPIA_SCLK
+  __writeMemory32(0x10F1,0x401F83E4,"Memory");  //IOMUXC_GPIO_SD_B1_08 FLEXSPIA_DATA00
+  __writeMemory32(0x10F1,0x401F83E8,"Memory");  //IOMUXC_GPIO_SD_B1_09 FLEXSPIA_DATA01
+  __writeMemory32(0x10F1,0x401F83EC,"Memory");  //IOMUXC_GPIO_SD_B1_10 FLEXSPIA_DATA02
+  __writeMemory32(0x10F1,0x401F83F0,"Memory");  //IOMUXC_GPIO_SD_B1_11 FLEXSPIA_DATA03
+
+
+/* FlexSPI init */
+  __writeMemory32(0xFFFF3032,0x402A8000,"Memory"); //MCR0
+  __writeMemory32(0x200001F7,0x402A8008,"Memory"); //MCR2
+  __writeMemory32(0x00000020,0x402A800C,"Memory"); //AHBCR
+  __writeMemory32(0x00001000,0x402A8060,"Memory"); //FLSHA1CR0
+  __writeMemory32(0x00050044,0x402A8070,"Memory"); //FLSHA1CR1
+  __writeMemory32(0x00000041,0x402A80C0,"Memory"); //DLLACR
+
+
+  __writeMemory32(0x5AF05AF0,0x402A8018,"Memory"); //LUTKEY
+  __writeMemory32(0x00000002,0x402A801C,"Memory"); //LUTCR
+  __writeMemory32(0x0820040b,0x402A8200,"Memory"); //LUT[0]
+  __writeMemory32(0x24803008,0x402A8204,"Memory"); //LUT[1]
+  __writeMemory32(0x5AF05AF0,0x402A8018,"Memory"); //LUTKEY
+  __writeMemory32(0x00000001,0x402A801C,"Memory"); //LUTCR
+
+  __writeMemory32(0xFFFF3030,0x402A8000,"Memory"); //MCR0 - enable
+  __writeMemory32(0xFFFF3031,0x402A8000,"Memory"); //MCR0 - SW reset
+
+}
+  
+/*
+execUserReset()
+{
+  __message "----- External Flash initialization on Reset -----\n";
+  setup();
+}
+*/
+
+execUserFlashExit()
+{
+  __message "----- External Flash initialization post download -----\n";
+  setup();
+}
+
+/*
+execUserPreload()
+{
+  __message "----- External Flash initialization preload -----\n";
+  setup();
+}
+*/
+

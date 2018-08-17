@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3569061778</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\flash_loader_ram.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash_loader_ram.__cstat.et</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_gpio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_common.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\imxrtloader.pbd</file>
+      <file>$PROJ_DIR$\..\MIMXRT1052.h</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_lpuart.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_clock.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_flexspi.o</file>
+      <file>$PROJ_DIR$\..\framework2\flash_loader.c</file>
+      <file>$PROJ_DIR$\..\cmsis\cmsis_compiler.h</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_clock.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\imxrt1052loader.out</file>
+      <file>$PROJ_DIR$\..\src\flash_loader_ram.c</file>
+      <file>$PROJ_DIR$\..\cmsis\core_cm7.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_common.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_flexspi.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_common.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\quad_flash.o</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_clock.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\otcal_adesto.o</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_common.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\device_config.pbi</file>
+      <file>$PROJ_DIR$\..\src\quad_flash.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\src\otcal_adesto.c</file>
+      <file>$PROJ_DIR$\Debug\List\imxrt1052loader.map</file>
+      <file>$PROJ_DIR$\..\MIMXRT1052_features.h</file>
+      <file>$PROJ_DIR$\..\src\device_config.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_flexspi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_MIMXRT1052.pbi</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_gpio.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_lpuart.__cstat.et</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_common.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_MIMXRT1052.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\drivers\device\fsl_device_registers.h</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_flexspi.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\framework2\flash_loader.h</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_flexspi.h</file>
+      <file>$PROJ_DIR$\..\framework2\flash_loader_extra.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\quad_flash.__cstat.et</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_lpuart.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\device_config.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\otcal_adesto.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash_loader.o</file>
+      <file>$PROJ_DIR$\..\system_MIMXRT1052.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash_loader_asm.o</file>
+      <file>$PROJ_DIR$\..\drivers\device\system_MIMXRT1052.c</file>
+      <file>$PROJ_DIR$\..\framework2\flash_loader_asm.s</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\src\device_config.h</file>
+      <file>$PROJ_DIR$\..\drivers\device\MIMXRT1052_features.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_clock.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\src\flash_config.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\quad_flash.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\..\drivers\device\MIMXRT1052.h</file>
+      <file>$PROJ_DIR$\..\drivers\device\system_MIMXRT1052.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\cmsis\mpu_armv7.h</file>
+      <file>$PROJ_DIR$\..\cmsis\cmsis_iccarm.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_lpuart.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_iomuxc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_MIMXRT1052.o</file>
+      <file>$PROJ_DIR$\..\system_MIMXRT1052.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_lpuart.o</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\imxrtloader.out</file>
+      <file>$PROJ_DIR$\..\fsl_device_registers.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_gpio.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\device_config.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\otcal_adesto.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_clock.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash_loader.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash_loader.pbi</file>
+      <file>$PROJ_DIR$\..\cmsis\cmsis_version.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsl_gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\flash_loader_ram.o</file>
+      <file>$PROJ_DIR$\imxrt1052_ram.icf</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 13 31</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\fsl_lpuart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49 38 84 41 59 44 86 29 40 18 17 23 51 12 28 92 69 42 67 15 91 10 71 63 70 68 61 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 23 11 41 69 59 40 86 10 38 84 92 44 29 12 61 15 71 63 17 51 42 18 67 68 91 70 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\framework2\flash_loader.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45 64 80 41 59 44 86 29 40 18 12 58 23 38 84 17 51 28 92 69 42 67 15 91 10 71 63 70 68 61 11 74 2 49 46 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74 59 64 12 40 86 41 84 38 92 68 23 49 44 29 69 11 28 67 91 70 47 80 2 46 58 18 17 51 42 61 15 10 71 63 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\imxrt1052loader.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 95 50 53 55 94 62 16 8 93 78 24 21 76 73 79 66</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\flash_loader_ram.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45 64 80 41 59 44 86 29 40 18 12 58 23 38 84 17 51 28 92 69 42 67 15 91 10 71 63 70 68 61 11 74 2 49 46 47 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 64 12 40 86 84 74 59 92 68 69 60 23 49 44 29 11 28 67 91 70 38 45 47 80 2 46 58 18 17 51 42 61 15 10 71 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\fsl_clock.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11 38 84 41 59 44 86 29 40 18 17 23 51 12 28 92 69 42 67 15 91 10 71 63 70 68 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 23 11 41 38 69 59 40 86 10 84 92 44 29 12 61 15 71 63 17 51 42 18 67 68 91 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\fsl_common.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38 84 41 59 44 86 29 40 18 17 23 51 12 28 92 69 42 67 15 91 10 71 63 70 68 61 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 17 41 18 59 71 51 42 67 15 63 84 23 92 69 11 44 40 86 29 28 61 10 38 68 91 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\quad_flash.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60 64 80 41 59 44 86 29 40 18 12 58 23 38 84 17 51 28 92 69 42 67 15 91 10 71 63 70 68 61 11 74 2 49 46 45 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 29 23 38 11 91 70 64 49 40 41 67 44 69 59 47 74 12 86 84 92 68 45 80 2 46 58 18 17 51 42 61 15 10 71 63 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\otcal_adesto.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60 64 80 41 59 44 86 29 40 18 12 58 23 38 84 17 51 28 92 69 42 67 15 91 10 71 63 70 68 61 11 74 2 49 46 45 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68 92 38 47 41 12 74 40 86 84 59 64 23 49 44 29 69 11 28 67 91 70 45 80 2 46 58 18 17 51 42 61 15 10 71 63 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\device_config.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60 64 80 41 59 44 86 29 40 18 12 58 23 38 84 17 51 28 92 69 42 67 15 91 10 71 63 70 68 61 11 74 2 49 46 45 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63 61 23 59 51 15 69 45 49 18 42 41 71 74 58 17 12 10 64 47 80 38 2 46 44 40 86 29 84 92 11 28 67 68 91 70 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\fsl_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 2 38 84 41 59 44 86 29 40 18 17 23 51 12 28 92 69 42 67 15 91 10 71 63 70 68 61 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 91 59 41 18 17 12 67 51 42 38 84 23 92 69 11 44 40 86 29 68 2 28 61 15 10 71 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\fsl_flexspi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 69 41 59 44 86 29 40 18 12 42 67 15 23 91 10 71 63 70 68 61 38 84 17 51 28 92 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 42 41 59 68 17 18 67 91 70 51 38 69 44 40 86 29 61 15 23 10 71 63 84 92 11 28 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\device\system_MIMXRT1052.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 41 59 44 86 29 40 18 42 67 15 91 10 71 63 70 68 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 68 18 59 41 67 10 42 44 40 86 29 61 15 71 63 91 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\framework2\flash_loader_asm.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\system_MIMXRT1052.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23 41 59 44 86 29 40 18 82 5 15 91 10 71 63 70 54 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 15 29 32 44 41 40 86 10 82 59 18 5 54 71 63 91 70</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\imxrtloader.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 95 50 53 55 94 62 16 8 93 78 24 21 76 73 79 66</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>onlytest</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\drivers\fsl_gpio.h</file>
+      <file>$PROJ_DIR$\onlytest\Obj\quad_flash.pbi</file>
+      <file>$PROJ_DIR$\onlytest\Obj\quad_flash.__cstat.et</file>
+      <file>$PROJ_DIR$\..\MIMXRT1052.h</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_lpuart.c</file>
+      <file>$PROJ_DIR$\..\framework2\flash_loader.c</file>
+      <file>$PROJ_DIR$\..\cmsis\cmsis_compiler.h</file>
+      <file>$PROJ_DIR$\onlytest\Obj\flash_loader_ram.o</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_clock.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\src\flash_loader_ram.c</file>
+      <file>$PROJ_DIR$\onlytest\Obj\fsl_lpuart.__cstat.et</file>
+      <file>$PROJ_DIR$\..\cmsis\core_cm7.h</file>
+      <file>$PROJ_DIR$\onlytest\Obj\fsl_common.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\onlytest\Obj\otcal_adesto.__cstat.et</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_clock.c</file>
+      <file>$PROJ_DIR$\onlytest\Obj\flash_loader_asm.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\onlytest\Obj\device_config.pbi</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_common.c</file>
+      <file>$PROJ_DIR$\..\src\quad_flash.c</file>
+      <file>$PROJ_DIR$\onlytest\Obj\flash_loader.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\src\otcal_adesto.c</file>
+      <file>$PROJ_DIR$\onlytest\List\imxrt1052loader.map</file>
+      <file>$PROJ_DIR$\..\MIMXRT1052_features.h</file>
+      <file>$PROJ_DIR$\..\src\device_config.c</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_gpio.c</file>
+      <file>$PROJ_DIR$\imxrt1052_flexspi.icf</file>
+      <file>$PROJ_DIR$\onlytest\Obj\fsl_lpuart.o</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_common.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\drivers\device\fsl_device_registers.h</file>
+      <file>$PROJ_DIR$\onlytest\Obj\fsl_clock.o</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_flexspi.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\framework2\flash_loader.h</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_flexspi.h</file>
+      <file>$PROJ_DIR$\onlytest\Obj\fsl_flexspi.o</file>
+      <file>$PROJ_DIR$\..\framework2\flash_loader_extra.h</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_lpuart.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\onlytest\Obj\otcal_adesto.o</file>
+      <file>$PROJ_DIR$\onlytest\Obj\flash_loader_ram.__cstat.et</file>
+      <file>$PROJ_DIR$\..\system_MIMXRT1052.h</file>
+      <file>$PROJ_DIR$\..\drivers\device\system_MIMXRT1052.c</file>
+      <file>$PROJ_DIR$\onlytest\Obj\fsl_flexspi.__cstat.et</file>
+      <file>$PROJ_DIR$\..\framework2\flash_loader_asm.s</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\onlytest\Obj\fsl_lpuart.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\onlytest\Obj\fsl_common.__cstat.et</file>
+      <file>$PROJ_DIR$\..\src\device_config.h</file>
+      <file>$PROJ_DIR$\..\drivers\device\MIMXRT1052_features.h</file>
+      <file>$PROJ_DIR$\onlytest\Exe\imxrt1052loader.out</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\onlytest\Obj\system_MIMXRT1052.__cstat.et</file>
+      <file>$PROJ_DIR$\..\src\flash_config.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\..\drivers\device\MIMXRT1052.h</file>
+      <file>$PROJ_DIR$\onlytest\Obj\fsl_clock.__cstat.et</file>
+      <file>$PROJ_DIR$\onlytest\Obj\flash_loader_ram.pbi</file>
+      <file>$PROJ_DIR$\onlytest\Obj\fsl_gpio.__cstat.et</file>
+      <file>$PROJ_DIR$\onlytest\Obj\fsl_clock.pbi</file>
+      <file>$PROJ_DIR$\..\drivers\device\system_MIMXRT1052.h</file>
+      <file>$PROJ_DIR$\onlytest\Obj\fsl_flexspi.pbi</file>
+      <file>$PROJ_DIR$\onlytest\Obj\system_MIMXRT1052.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\onlytest\Obj\fsl_gpio.pbi</file>
+      <file>$PROJ_DIR$\..\cmsis\mpu_armv7.h</file>
+      <file>$PROJ_DIR$\..\cmsis\cmsis_iccarm.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\onlytest\Obj\otcal_adesto.pbi</file>
+      <file>$PROJ_DIR$\..\drivers\fsl_iomuxc.h</file>
+      <file>$PROJ_DIR$\..\system_MIMXRT1052.c</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$PROJ_DIR$\onlytest\Obj\device_config.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\onlytest\Obj\fsl_gpio.o</file>
+      <file>$PROJ_DIR$\onlytest\Obj\flash_loader.o</file>
+      <file>$PROJ_DIR$\..\fsl_device_registers.h</file>
+      <file>$PROJ_DIR$\onlytest\Obj\device_config.__cstat.et</file>
+      <file>$PROJ_DIR$\onlytest\Obj\flash_loader.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\onlytest\Obj\fsl_common.pbi</file>
+      <file>$PROJ_DIR$\..\cmsis\cmsis_version.h</file>
+      <file>$PROJ_DIR$\onlytest\Obj\quad_flash.o</file>
+      <file>$PROJ_DIR$\onlytest\Obj\system_MIMXRT1052.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 27 58</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\fsl_lpuart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44 33 87 35 54 39 88 25 34 15 14 19 45 9 24 93 71 36 63 12 90 6 74 59 73 68 57 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24 19 8 35 71 54 34 88 6 33 87 93 39 25 9 57 12 74 59 14 45 36 15 63 68 90 73 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\framework2\flash_loader.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40 61 81 35 54 39 88 25 34 15 9 52 19 33 87 14 45 24 93 71 36 63 12 90 6 74 59 73 68 57 8 77 0 44 41 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63 44 34 35 61 25 19 8 24 90 73 33 39 71 54 77 9 88 87 93 68 43 81 0 41 52 15 14 45 36 57 12 6 74 59 40</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\flash_loader_ram.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40 61 81 35 54 39 88 25 34 15 9 52 19 33 87 14 45 24 93 71 36 63 12 90 6 74 59 73 68 57 8 77 0 44 41 43 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81 19 54 35 0 52 14 9 6 71 56 33 41 15 45 36 57 12 74 59 40 43 61 77 44 39 34 88 25 87 93 8 24 63 68 90 73</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\fsl_clock.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8 33 87 35 54 39 88 25 34 15 14 19 45 9 24 93 71 36 63 12 90 6 74 59 73 68 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24 19 8 35 33 71 54 34 88 6 87 93 39 25 9 57 12 74 59 14 45 36 15 63 68 90 73</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\fsl_common.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33 87 35 54 39 88 25 34 15 14 19 45 9 24 93 71 36 63 12 90 6 74 59 73 68 57 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 14 35 15 54 74 45 36 63 12 59 87 19 93 71 8 39 34 88 25 24 57 6 33 68 90 73</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\quad_flash.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56 61 81 35 54 39 88 25 34 15 9 52 19 33 87 14 45 24 93 71 36 63 12 90 6 74 59 73 68 57 8 77 0 44 41 40 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 68 33 61 35 9 77 34 88 87 54 43 19 44 39 25 71 8 24 63 90 73 40 81 0 41 52 15 14 45 36 57 12 6 74 59 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\otcal_adesto.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56 61 81 35 54 39 88 25 34 15 9 52 19 33 87 14 45 24 93 71 36 63 12 90 6 74 59 73 68 57 8 77 0 44 41 40 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71 33 19 43 35 39 54 44 25 8 24 34 63 90 73 61 77 9 88 87 93 68 40 81 0 41 52 15 14 45 36 57 12 6 74 59 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\device_config.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56 61 81 35 54 39 88 25 34 15 9 52 19 33 87 14 45 24 93 71 36 63 12 90 6 74 59 73 68 57 8 77 0 44 41 40 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 35 33 54 71 61 40 41 25 19 8 24 34 63 90 73 81 0 9 88 87 93 68 43 77 44 52 15 14 45 36 57 12 6 74 59 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\fsl_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 33 87 35 54 39 88 25 34 15 14 19 45 9 24 93 71 36 63 12 90 6 74 59 73 68 57 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73 90 54 35 15 14 9 63 45 36 33 87 19 93 71 8 39 34 88 25 68 0 24 57 12 6 74 59</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\fsl_flexspi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 71 35 54 39 88 25 34 15 9 36 63 12 19 90 6 74 59 73 68 57 33 87 14 45 24 93 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 36 35 54 68 14 15 63 90 73 45 33 71 39 34 88 25 57 12 19 6 74 59 87 93 8 24 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\drivers\device\system_MIMXRT1052.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19 35 54 39 88 25 34 15 36 63 12 90 6 74 59 73 68 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 68 15 54 35 63 6 36 39 34 88 25 57 12 74 59 90 73</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\framework2\flash_loader_asm.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\onlytest\Exe\imxrt1052loader.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 31 80 83 18 7 37 13 42 82 32 46 91 92 75 79 62</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\system_MIMXRT1052.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19 35 54 39 88 25 34 15 84 3 12 90 6 74 59 73 48 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 12 25 28 39 35 34 88 6 84 54 15 3 48 74 59 90 73</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

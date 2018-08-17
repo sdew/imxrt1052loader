@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<flash_device>
+  <exe>$TOOLKIT_DIR$\config\flashloader\NXP\imxrt1052loader.out</exe>
+  <page>256</page>
+  <block>1024 0x1000</block>
+  <flash_base>0x60000000</flash_base>
+  <!-- for now we are not using a macro as execUserFlashExit() is not called in the right spot
+  <macro>$TOOLKIT_DIR$\config\flashloader\NXP\imxrt1052loader.mac</macro>
+  -->
+  <args_doc>[--eco] Enable Adesto EcoXiP ATXP032 Algorithm</args_doc>
+</flash_device>
